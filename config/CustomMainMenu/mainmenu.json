@@ -1,0 +1,308 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "terralization:textures/gui/terralization.png",
+            "posX" : -156,
+            "posY" : 10,
+            "width" : 312,
+            "height" : 55,
+            "alignment" : "top_center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://terralization.com"
+            }
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "",
+            "posX" : 62,
+            "posY" : -165,
+            "width" : 84,
+            "height" : 9,
+            "imageWidth" : 2100,
+            "imageHeight" : 213,
+            "alignment" : "bottom_left",
+            "texture" : "terralization:textures/gui/singleplayer both.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+        "multiplayer":
+        {
+            "text" : "",
+            "posX" : 62,
+            "posY" : -145,
+            "width" : 77,
+            "height" : 8,
+            "imageWidth" : 1921,
+            "imageHeight" : 207,
+            "alignment" : "bottom_left",
+            "texture" : "terralization:textures/gui/multiplayer both.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "Officialserver1":
+        {
+            "text" : "",
+            "posX" : -82,
+            "posY" : -170,
+            "width" : 44,
+            "height" : 42,
+            "imageWidth" : 1100,
+            "imageHeight" : 1050,
+            "alignment" : "bottom_right",
+            "tooltip" : "Official Server #1",
+            "texture" : "terralization:textures/gui/servericonduo1.png",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "modpack.terralization.xyz"
+            }
+        },
+
+        "Officialserver2":
+        {
+            "text" : "",
+            "posX" : -82,
+            "posY" : -125,
+            "width" : 44,
+            "height" : 42,
+            "imageWidth" : 1100,
+            "imageHeight" : 1050,
+            "alignment" : "bottom_right",
+            "tooltip" : "Official Server #2",
+            "texture" : "terralization:textures/gui/servericonduo2.png",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "modpack2.terralization.xyz"
+            }
+        },
+
+        "Officialserver3":
+        {
+            "text" : "",
+            "posX" : -82,
+            "posY" : -80,
+            "width" : 44,
+            "height" : 42,
+            "imageWidth" : 1100,
+            "imageHeight" : 1050,
+            "alignment" : "bottom_right",
+            "tooltip" : "Official Server #3",
+            "texture" : "terralization:textures/gui/servericonduo3.png",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "modpack3.terralization.xyz"
+            }
+        },
+        
+        "options":
+        {
+            "text" : "",
+            "posX" : 62,
+            "posY" : -125,
+            "width" : 50,
+            "height" : 9,
+            "imageWidth" : 1261,
+            "imageHeight" : 213,
+            "alignment" : "bottom_left",
+            "texture" : "terralization:textures/gui/options both.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "",
+            "posX" : 62,
+            "posY" : -105,
+            "width" : 33,
+            "height" : 9,
+            "imageWidth" : 832,
+            "imageHeight" : 213,
+            "alignment" : "bottom_left",
+            "texture" : "terralization:textures/gui/mods both.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "",
+            "posX" : 62,
+            "posY" : -45,
+            "width" : 24,
+            "height" : 8,
+            "imageWidth" : 594,
+            "imageHeight" : 202,
+            "alignment" : "bottom_left",
+            "texture" : "terralization:textures/gui/kill both.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -125,
+            "posY" : -20,
+            "width" : 20,
+            "height" : 10,
+            "imageWidth" : 5553,
+            "imageHeight" : 2777,
+            "alignment" : "bottom_right",
+            "tooltip" : "Languages",
+            "texture" : "terralization:textures/gui/language-regular duble.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+
+        "Youtube":
+        {
+            "text" : "",
+            "posX" : -100,
+            "posY" : -22.5,
+            "width" : 20,
+            "height" : 15,
+            "imageWidth" : 1200,
+            "imageHeight" : 900,
+            "alignment" : "bottom_right",
+            "tooltip" : "Youtube",
+            "texture" : "terralization:textures/gui/youtubelogomc.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.youtube.com/channel/UCeI8o6BGJz3NDaWGKJ_pTnA"
+            }
+        },
+
+        "Twitch":
+        {
+            "text" : "",
+            "posX" : -75,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth" : 1000,
+            "imageHeight" : 1000,
+            "alignment" : "bottom_right",
+            "tooltip" : "Twitch",
+            "texture" : "terralization:textures/gui/twitchlogomc.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.twitch.tv/terralization"
+            }
+        },
+
+        "Discord":
+        {
+            "text" : "",
+            "posX" : -50,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 23,
+            "imageWidth" : 3907,
+            "imageHeight" : 4465,
+            "alignment" : "bottom_right",
+            "tooltip" : "Discord",
+            "texture" : "terralization:textures/gui/discord-brands duble.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/TnTeKfD"
+            }
+        },
+        
+        "bug":
+        {
+            "text" : "",
+            "posX" : -25,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth" : 4304,
+            "imageHeight" : 4304,
+            "alignment" : "bottom_right",
+            "tooltip" : "Bug report",
+            "texture" : "terralization:textures/gui/debug-regular duble.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/maggi373/TerralizationModcore/issues"
+            }
+        }
+    },
+
+    "texts":
+    {
+        
+        "packName": {
+            "text": "Terralization 2.3.0a",
+            "posX": 2,
+            "posY": -20,
+            "color": -1,
+            "alignment": "bottom_left",
+            "hoverColor" : "13882323",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.technicpack.net/modpack/terralization.654195/changelog"
+            }
+        },
+        "packAuthor": {
+            "text": "Made by maggi373",
+            "posX": 2,
+            "posY": -10,
+            "color": -1,
+            "alignment": "bottom_left"
+        },
+        "time": {
+            "text": "#time#",
+            "posX": -30,
+            "posY": 5,
+            "color": -1,
+            "alignment": "top_right",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+
+    "other":
+    { 
+        "background":
+        {
+            "image" : "terralization:textures/gui/background.jpg",
+            "mode" : "stretch"
+        }
+    }
+}
