@@ -59,56 +59,18 @@
         {
             "text" : "",
             "posX" : -82,
-            "posY" : -170,
-            "width" : 44,
-            "height" : 42,
-            "imageWidth" : 1100,
-            "imageHeight" : 1050,
-            "alignment" : "bottom_right",
-            "tooltip" : "Official Server #1",
-            "texture" : "terralization:textures/gui/servericonduo1.png",
-            "action" : 
-            {
-                "type" : "connectToServer",
-                "ip" : "modpack.terralization.xyz"
-            }
-        },
-
-        "Officialserver2":
-        {
-            "text" : "",
-            "posX" : -82,
             "posY" : -125,
             "width" : 44,
             "height" : 42,
             "imageWidth" : 1100,
             "imageHeight" : 1050,
             "alignment" : "bottom_right",
-            "tooltip" : "Official Server #2",
-            "texture" : "terralization:textures/gui/servericonduo2.png",
+            "tooltip" : "Official Server 1.12.2 #1",
+            "texture" : "terralization:textures/gui/servericonduo1.png",
             "action" : 
             {
                 "type" : "connectToServer",
-                "ip" : "modpack2.terralization.xyz"
-            }
-        },
-
-        "Officialserver3":
-        {
-            "text" : "",
-            "posX" : -82,
-            "posY" : -80,
-            "width" : 44,
-            "height" : 42,
-            "imageWidth" : 1100,
-            "imageHeight" : 1050,
-            "alignment" : "bottom_right",
-            "tooltip" : "Official Server #3",
-            "texture" : "terralization:textures/gui/servericonduo3.png",
-            "action" : 
-            {
-                "type" : "connectToServer",
-                "ip" : "modpack3.terralization.xyz"
+                "ip" : "modpack12.terralization.xyz"
             }
         },
         
