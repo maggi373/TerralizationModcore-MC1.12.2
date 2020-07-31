@@ -4,15 +4,15 @@
         "title":
         {
             "image" : "terralization:textures/gui/terralization.png",
-            "posX" : -156,
+            "posX" : -128,
             "posY" : 10,
-            "width" : 312,
-            "height" : 55,
+            "width" : 257,
+            "height" : 51,
             "alignment" : "top_center",
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://terralization.com"
+                "link" : "https://thorfusion.xyz"
             }
         }
     },
