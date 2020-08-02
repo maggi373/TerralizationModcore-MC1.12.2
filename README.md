@@ -30,7 +30,7 @@ The ISSUES panel is also used for our servers
 
 #### Discord: https://discord.gg/5NsUK4d
 
-#### Technic Site: https://www.technicpack.net/modpack/terralization.654195
+#### Technic Site: https://www.technicpack.net/modpack/bitbytepack.626387
 
 #### Official Website: https://terralization.com
 
