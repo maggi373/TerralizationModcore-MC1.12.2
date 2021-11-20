@@ -12,7 +12,7 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://thorfusion.xyz"
+                "link" : "https://terralization.xyz"
             }
         }
     },
@@ -59,18 +59,56 @@
         {
             "text" : "",
             "posX" : -82,
+            "posY" : -170,
+            "width" : 44,
+            "height" : 42,
+            "imageWidth" : 1100,
+            "imageHeight" : 1050,
+            "alignment" : "bottom_right",
+            "tooltip" : "Official Server #1",
+            "texture" : "terralization:textures/gui/servericonduo1.png",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "modpack.terralization.xyz"
+            }
+        },
+
+        "Officialserver2":
+        {
+            "text" : "",
+            "posX" : -82,
             "posY" : -125,
             "width" : 44,
             "height" : 42,
             "imageWidth" : 1100,
             "imageHeight" : 1050,
             "alignment" : "bottom_right",
-            "tooltip" : "Official Server 1.12.2 #1",
-            "texture" : "terralization:textures/gui/servericonduo1.png",
+            "tooltip" : "Official Server #2",
+            "texture" : "terralization:textures/gui/servericonduo2.png",
             "action" : 
             {
                 "type" : "connectToServer",
-                "ip" : "modpack12.terralization.xyz"
+                "ip" : "modpack2.terralization.xyz"
+            }
+        },
+
+        "Officialserver3":
+        {
+            "text" : "",
+            "posX" : -82,
+            "posY" : -80,
+            "width" : 44,
+            "height" : 42,
+            "imageWidth" : 1100,
+            "imageHeight" : 1050,
+            "alignment" : "bottom_right",
+            "tooltip" : "Official Server #3",
+            "texture" : "terralization:textures/gui/servericonduo3.png",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "modpack3.terralization.xyz"
             }
         },
         
@@ -223,11 +261,11 @@
         }
     },
 
-    "labels":
+    "texts":
     {
         
         "packName": {
-            "text": "Terralization 3.0.0a",
+            "text": "Terralization 1.12.2 BETA 3.0.0a",
             "posX": 2,
             "posY": -20,
             "color": -1,
